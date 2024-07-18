@@ -1,7 +1,7 @@
 import { useState } from "react"
 import AmountInputField from "./AmountInputField"
 import InputField from "./InputField"
-import OptionField from "./OptionField"
+import OptionsField from "./OptionsField"
 import PaymentButton from "./PaymentButton"
 
 export default function Calculator(){
@@ -24,10 +24,7 @@ export default function Calculator(){
             </div>
             <div>
                 <div className=" text-sm font-semibold text-slate-500 m-1"> Mortage Type</div>
-                <div>
-                    <OptionField title="Repayment"/>
-                    <OptionField title="Interest Only"/>
-                </div>
+                <OptionsField/>
             </div>
             <PaymentButton/>
         </div>

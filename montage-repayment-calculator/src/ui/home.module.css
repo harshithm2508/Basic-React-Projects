@@ -1,0 +1,12 @@
+.shaped_border{
+    border-radius: 0px 0px 0px 50px;
+}
+
+.image_size{
+    height: 60%;
+    width: 60%;
+}
+
+.input_field_width{
+    width: 48%;
+}
